@@ -1,0 +1,25 @@
+{
+  "name": "pdfmake-bundled-es-modules",
+  "version": "0.1.41",
+  "description": "mirror of pdfmake, bundled and exposed as ES module",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rollup -c ./rollup.config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amitmerin/pdfmake-bundled-es-modules.git"
+  },
+  "author": "Amit Merin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amitmerin/pdfmake-bundled-es-modules/issues"
+  },
+  "homepage": "https://github.com/amitmerin/pdfmake-bundled-es-modules#readme",
+  "devDependencies": {
+    "pdfmake": "^0.1.41",
+    "rollup": "^1.1.2",
+    "rollup-plugin-commonjs": "^9.2.0"
+  }
+}
