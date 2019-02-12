@@ -2,9 +2,9 @@ import commonjs from 'rollup-plugin-commonjs';
 
 export default [
   {
-    input: './node_modules/pdfmake/build/vfs_fonts.js',
+    input: './node_modules/pdfmake/build/pdfmake.js',
     output: {
-      file: './vfs_fonts.js',
+      file: './pdfmake.js',
       format: 'es',
     },
     plugins: [
