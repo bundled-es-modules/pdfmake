@@ -15,7 +15,7 @@ bower install bundled-es-modules/pdfmake
 ```html
 <script type="module">
   import pdfMake from 'pdfmake/pdfmake';
-  import { vfs } from 'pdfmake/vfs_fonts'
+  import { vfs } from 'pdfmake/vfs_fonts';
   
   pdfMake.vfs = vfs;
 </script>
